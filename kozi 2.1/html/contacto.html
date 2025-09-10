@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="/assets/css/contacto.css">    
+    <link rel="stylesheet" href="/assets/css/normalize.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body class="contacto-fondo">
+    <header id="header" class="header"></header>
+
+    <main>
+        <section class="nosotrosContenedor" >
+            <h2 class="titulo" >Nosotros</h2>
+            <p class="nosotros-text">En Közi, nos especializamos en joyería de estilo gótico y VKei, ofreciendo anillos, collares y pulseras únicas que capturan la esencia de bandas legendarias como Malice Mizer. Nuestras piezas están diseñadas para expresar individualidad y conectarte con la estética visual kei, combinando materiales de calidad con diseños audaces y misteriosos. Cada creación refleja la elegancia oscura y la teatralidad que define este movimiento cultural japonés.</p>
+            <div class="contenedor-img">
+                <img src="/assets/img/logo.png">
+            </div>
+        </section>
+
+        <div class="contacto">
+            <form onsubmit="return validarFormulario()">
+                <h2 class="contacto-text">contacto</h2>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+        
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje"></textarea>
+        
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </main>  
+
+    <footer id="footer" class="footer"></footer>
+</body>
+<script src="/assets/js/layout.js"></script>
+<script src="/assets/js/contacto.js"></script>
+</html>
