@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Angel Wish';
+    src: url('/assets/fuentes-text/Angel\ wish\ \(1\).ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Iceland Winterstorm';
+    src: url('/assets/fuentes-text/IcelandWinterstorm_PERSONAL_USE_ONLY.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Old England Gothic';
+    src: url('/assets/fuentes-text/Old\ England\ Gothic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Seagram TFB';
+    src: url('/assets/fuentes-text/Seagram\ tfb\ \(1\).ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+h1, a, .nombreProductoText, button {
+    font-family: 'Angel Wish', 'Poppins', sans-serif;
+}
+
+h2, h3 {
+    font-family: 'Old England Gothic', 'Poppins', sans-serif;
+}
+
+p, .logo, .btnR {
+    font-family: 'Seagram TFB', 'Poppins', sans-serif;
+}
+
+.btn, .producto-nombre{
+    font-family: 'Iceland Winterstorm', 'Poppins', sans-serif;
+}
+
+

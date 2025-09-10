@@ -1,0 +1,132 @@
+body{
+  background-image: url("/assets/img/fondo-catalogo.png");
+  background-size: cover;  
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+}
+main {
+    max-width: 900px;
+    margin: 100px auto 50px;
+    padding: 25px;
+    background: transparent;
+    border-radius: 12px;
+    border: 1px solid black;    
+    box-shadow: 0 8px 24px rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(8px);
+}
+
+h2 {
+    text-align: center;
+    color: #f3f4f6;
+    margin-bottom: 25px;
+    font-size: 2.2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.producto-carrito {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    justify-content: space-between;
+    padding: 18px;
+    margin-bottom: 20px;
+    background: black;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.producto-carrito:hover {
+    transform: scale(1.01);
+    box-shadow: 0 6px 16px brown;
+}
+
+.producto-carrito img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.producto-carrito div {
+    flex: 1;
+}
+
+.producto-carrito h4 {
+    color: #f3f4f6;
+    margin-bottom: 6px;
+    font-size: 1.1rem;
+}
+
+.producto-carrito p {
+    color: #9ca3af;
+    font-size: 0.9rem;
+}
+
+.producto-carrito button {
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+#total {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #f3f4f6;
+    margin: 25px 0 15px;
+}
+
+button[onclick="comprar()"] {
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient white;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.15rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.25s, box-shadow 0.25s;
+}
+
+button[onclick="comprar()"]:hover {
+    background-color: cadetblue;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.4);
+}
+
+main a {
+    width: 100%;
+    padding: 14px;
+    border-radius: 10px;
+    font-size: 1.15rem;
+    display: block;
+    text-align: center;
+    margin-top: 18px;
+    color: #60a5fa;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+main a:hover {
+    color: #93c5fd;
+}
+
+#carrito > p {
+    text-align: center;
+    color: #9ca3af;
+    font-style: italic;
+    padding: 40px;
+    font-size: 1rem;
+}
